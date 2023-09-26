@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    overflow-x: hidden;
+    background: url(./imgs/background.jpg);
+    background-size: cover; /* Ajuste o tamanho da imagem para cobrir todo o corpo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    color: #fff;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav ul li a{
+    color: #fff;
+}
+#banner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(./imgs/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.imgs-container{
+    width: calc(100vw);
+    display: flex;
+    position: relative;
+    height: 340px;
+    
+}
+.img-content{
+    width: 37%; 
+    padding: 20px;
+    background-color: #FFF;
+}
+.img-content img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.img-content:nth-child(1){
+    position: absolute;
+    left: 0px;
+    top: -100px;
+}
+.img-content:nth-child(2){
+    position: absolute;
+    top: -0px;
+    transform: translateX(83%);
+}
+.img-content:nth-child(3){
+    position: absolute;
+    right: 0px;
+    top: -150px;
+    right: 14px;
+}
+
+.content{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+.alt .underline{
+    width: 30px;
+    border-top: 1px solid #392E26;
+    height: 5px;
+    transform: translateY(-20px);
+    transition: .4s ease-in;
+}
+.alt .line-div{
+    width: 90px;
+    border-top: 4px solid #392E26;
+    height: 5px;
+    transform: translateY(-15px);
+}
+.alt:hover .underline{
+    width: 250px;
+}
+
+#nasRedes .alt h2{
+    font-size: 102px;
+    color: #392E26;
+    margin: 0;
+    text-transform: uppercase;
+}
+#videos .alt h2{
+    font-size: 102px;
+    color: #392E26;
+    margin: 0;
+    text-transform: uppercase;
+}
+#contato .alt h2{
+    font-size: 102px;
+    color: #392E26;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#social-media-content{
+    width: 100%;
+    height: 100%;
+    column-count: 3; 
+    column-gap: 20px;
+    margin-bottom: 250px;
+}
+#social-media-content > * {
+    break-inside: avoid; /* Evita que os elementos sejam quebrados entre as colunas */
+    margin-bottom: 20px; /* Espaçamento inferior entre os elementos (opcional) */
+}
+
+.video-preview{
+    background: #fff;
+    padding: 15px;
+    
+}
+.photo-preview{
+    background: #fff;
+    padding: 15px;
+}
+.fake-content{
+    width: 100%;
+    height: 500px;
+    background-color: #ccc;
+}
+.fake-content-img{
+    width: 100%;
+    height: 300px;
+    background-color: #ccc;
+}
+
+#plataformas{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #392E26;
+    height: 300px;
+    font-size: 70px;
+    gap: 20px;
+    color: #cabfa5;
+    transform: translateY(-30px);
+
+}
+#plataformas i{
+    transition: .3s ease-in;
+
+}
+#plataformas i:hover {
+    color: #9B9380;
+}
+
+
+#videos-preview{
+    display: flex;
+    gap: 20px;
+    height: 650px;
+}
+
+.videos-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px
+}
+.videos-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px
+}
+.video-box{
+    padding: 15px;
+    background-color: #fff;
+}
+
+.fake-video-main{
+    width: 600px;
+    height: 400px;
+    background-color: #ccc;
+}
+.fake-video{
+    width: 300px;
+    height: 150px;
+    background-color: #ccc;
+}
+
+#contato{
+    margin-top: 80px;
+}
+#contato-content{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contato-content h2{
+    margin-bottom: 30px;
+    color: #392E26;
+}
+
+#contato-content h4{
+    color: #D8A17F;
+}
