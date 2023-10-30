@@ -36,6 +36,7 @@ $(document).ready(function() {
 
       
 $("#modal-content button").click(() => {
+  $("#ytplayer").remove()
     $("#modal").hide()
 })
 $("#navbar-icon").click(() => {
@@ -57,5 +58,13 @@ $("#mobile-navbar nav ul li").click(() => {
 const openModal = (code) => {
     $("#modal").show()
     console.log(code);
+    var conteudo = `
+      <iframe id="ytplayer" type="text/html" width="640" height="360"
+        src="http://www.youtube.com/embed/${code}?autoplay=1&origin=http://example.com"
+        frameborder="0"
+    ></iframe>
+    `
+
+    $("#modal-content").append(conteudo)
    
 }

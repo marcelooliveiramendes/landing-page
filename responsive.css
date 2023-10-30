@@ -104,6 +104,10 @@
     header nav ul{
         display: none;
     }
+    #banner {
+        background-image: url(imgs/banner-mobile.png);
+        background-size: cover;
+    }
     #modal-content{
         width: 80%;
         height: 400px;
@@ -160,6 +164,7 @@
     #banner h1{
         font-size: 3rem;
     }
+   
     .content-texts .alt h2{
         font-size: 62px !important;
     }
