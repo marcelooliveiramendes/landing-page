@@ -100,7 +100,7 @@ header nav i{
     overflow: hidden;
 }
 .img-content img{
-    width: clamp(500px, 100%, 100%);
+    width: 100%;
     max-height: 500px;
     object-fit: contain;
 }
