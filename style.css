@@ -77,7 +77,7 @@ header nav i{
     background: url(./imgs/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position-y: 0px;
 }
 #banner h1 img{
     width: 400px;
