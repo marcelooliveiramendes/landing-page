@@ -118,7 +118,8 @@
         display: none;
     }
     #banner {
-        background-image: url(imgs/banner-mobile.png);
+        background-image: url(./imgs/banner\ mobile.png);
+        background-position-y: 0px;
         background-size: cover;
     }
     #modal-content{
