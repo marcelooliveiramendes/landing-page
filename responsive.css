@@ -175,7 +175,7 @@
 }
 @media screen and (max-width: 700px) {
     #banner h1{
-        font-size: 3rem;
+        text-align: center;
     }
    
     .content-texts .alt h2{
@@ -271,6 +271,9 @@
         position: absolute;
         bottom: 20px;
     }
+    #banner h1 img{
+        width: 50%;
+    }
 } 
 
 
@@ -303,9 +306,7 @@
     header nav i{
         font-size: 1.3rem;
     }
-    #banner h1{
-        font-size: 2rem;
-    }
+   
 
     #mobile-navbar i{
         position: absolute;

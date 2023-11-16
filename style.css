@@ -38,6 +38,9 @@ header h2{
     display: none;
     text-align: center;
 }
+header img{
+    width: 80px;
+}
 
 header.scroll{
     background-color: #cabfa5;
@@ -76,10 +79,8 @@ header nav i{
     background-repeat: no-repeat;
     background-position: bottom;
 }
-#banner h1{
-    color: #fff;
-    font-size: 6rem;
-    font-family: 'Abril Fatface', serif;
+#banner h1 img{
+    width: 400px;
 }
 
 .imgs-container{
